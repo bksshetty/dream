@@ -1,11 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Página de prueba<title>
-</head>
-<body>
-  <h1>roopshree</h1>
-  <footer>gpuma 2017</footer>
-</body>
-</html>
+<canvas id="text" width="700" height="200"></canvas>
+
+<div id="html-text" class="text">
+  IT DEPENDS
+</div>
+body {
+  background: #222;
+  cursor: pointer;
+  font-size: 100px;
+  font-family: "Luckiest Guy", Arial;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div, canvas {
+  position: absolute;
+  left: 0;
+}
+
+#text {
+  display: none;
+  top: 60%;
+  z-index: 200;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  text-shadow:
+   -5px -5px 0 #1a1a1a,  
+    5px -5px 0 #1a1a1a,
+    -5px 5px 0 #1a1a1a,
+     5px 5px 0 #1a1a1a;
+  top: 60%;
+  opacity: 0.9
+}
