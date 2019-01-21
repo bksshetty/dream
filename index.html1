@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<canvas id="text" width="700" height="200"></canvas>
+<div id="html-text" class="text">
+  ROOPASHREE SHETTY
+</div>
+</body>
+</html>
